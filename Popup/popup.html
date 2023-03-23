@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Toolbox</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="pageTabs page" id="pageTabs">
+        <img class="page-controlLeft" id="pageTabs-controlLeft" src="/Images/Blau/Arrow-Left.png">
+        <img class="page-controlRight" id="pageTabs-controlRight" src="/Images/Blau/Arrow-Right.png">
+        <div class="page-title" id="pageTabs-title">Tab Manager</div>
+        <div class="pageTabs-tabs" id="pageTabs-tabs">
+            
+        </div>
+        <img class="page-donate" id="pageTabs-donate" src="/Images/Blau/Money.png">
+    </div>
+    <div class="pageBookmarks page hide" id="pageBookmarks">
+        <img class="page-controlLeft" id="pageBookmarks-controlLeft" src="/Images/Orange/Arrow-Left.png">
+        <img class="page-controlRight" id="pageBookmarks-controlRight" src="/Images/Orange/Arrow-Right.png">
+        <div class="page-title" id="pageBookmarks-title">Bookmark Manager</div>
+        <div class="pageBookmarks-marks" id="pageBookmarks-marks">
+            <div class="pageBookmarks-mark">
+                <img class="pageBookmarks-mark-icon">
+                <div class="pageBookmarks-mark-title">Hallo</div>
+                <img class="pageBookmarks-mark-delete" src="/Images/Orange/Delete.png">
+            </div>
+        </div>
+        <img class="page-donate" id="pageBookmarks-donate" src="/Images/Orange/Money.png">
+        <div class="pageBookmarks-delete" id="pageBookmarks-delete">
+            <div class="pageBookmarks-delete-title" id="pageBookmarks-delete-title"></div>
+            <img class="pageBookmarks-delete-icon" id="pageBookmarks-delete-icon">
+            <div class="pageBookmarks-delete-url" id="pageBookmarks-delete-url"></div>
+            <button type="button"
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

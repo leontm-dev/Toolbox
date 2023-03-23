@@ -1,0 +1,56 @@
+{
+    "manifest_version": 3,
+    "name": "Browser Toolbox",
+    "version": "0.0.3",
+    "action": {
+      "default_icon": {
+        "16": "Icons/Icon16.png",
+        "24": "Icons/Icon24.png",
+        "32": "Icons/Icon32.png"
+      },
+      "default_title": "Open the toolbox",
+      "default_popup": "Popup/popup.html"
+    },
+    "description": "With this extention you can view interesting stats about your browser and use satisfying tools in it!",
+    "icons": {
+      "16": "Icons/Icon16.png",
+      "32": "Icons/Icon32.png",
+      "48": "Icons/Icon48.png",
+      "128": "Icons/Icon128.png"
+    },
+    "author": "LeonTM",
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';",
+      "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+    },
+    "minimum_chrome_version": "107",
+    "permissions": [
+        "activeTab",
+        "bookmarks",
+        "clipboardRead",
+        "cookies",
+        "desktopCapture",
+        "downloads",
+        "geolocation",
+        "history",
+        "identity",
+        "management",
+        "pageCapture",
+        "printerProvider",
+        "storage",
+        "system.cpu",
+        "system.display",
+        "system.memory",
+        "system.storage",
+        "tabCapture",
+        "tabs",
+        "tabGroups",
+        "topSites"
+    ],
+    "short_name": "Browser Toolbox",
+    "version_name": "0.0.3"
+  }
